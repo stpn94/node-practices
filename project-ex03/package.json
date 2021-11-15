@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "douzone-stpn94-math": "file:../douzone-stpn94-math"
+  }
+}

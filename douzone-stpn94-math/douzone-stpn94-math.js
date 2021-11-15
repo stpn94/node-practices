@@ -23,5 +23,7 @@ module.exports = {
     Array.from(arguments).forEach(function (e) {
       min = e < min ? e : min;
     });
+
+    return min;
   },
 };

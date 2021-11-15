@@ -59,4 +59,38 @@ Create React App = CRA
     2. 파일 모듈 (내가만든 모듈) : 파일 경로로 불러와서 모듈안의 객체, 함수 클래스를 사용한다.
     3. npm 모듈 npm을 통해서 node_modules에 설치해놓고 사용(emaillist 만드는데 노드 모듈스에서는 익스프레스.js 다운받고 컨트롤러 만들고 라우터 만들고 그럼 라우터에 있는걸 컨트롤러가 가져다 쓴다. index.js는 내장모듈(코아모듈)을 쓴다.)
         - 로컬 배포 
-        - 원격 배포(시간이 쫌 걸림)
+        - 원격 배포 (npmjs.com)
+6. npmjs.com npm registry에 패키지 배포
+   1. 사용자 등록(회원가입)
+   2. 배포
+      1. $npm adduser
+      2. $npm publish
+   3.  [project-ex03]
+
+7. javascript module system
+    1. common.js (require.js) 2015년 전까지 개발 할 때 사용
+    2. AMD
+    3. ES6(es2015, es harmony) module 지원(표준)
+```
+require.js
+
+/* 이게 모듈을 사용하는거다 이해가나? */
+/* 모듈을 사용하는 애플리케이션 */
+var App = require("./app.js");
+
+console.log(App());
+/* 원리만 알면 안 해깔림 */
+/* require 코드가 돌때 */
+/* ▽ */
+/* ▽ */
+/* ▽ */
+/* 1. require 안에서 module.export = {} 이렇게 객체가 생김 */
+/*    exports = module.exports          이거도 그 객체를 가르친다. */
+/* 2. 그 안의 코드를 실행               니가 작성한 모듈안의 코드들 실행 */
+/*  2-1 exports.f = function(){};       */
+/*  2-1 exports.i = 10;                 */
+/* 3. return module.exports;           이렇게 리턴된다 */
+
+/* 리콰이어가 모듈을 만들어 놨는데 exports를 또 만들면 복잡해진다. 아예 안적았다. 참고해라*/
+중요! 객체 하나를 리턴하는거다.
+```

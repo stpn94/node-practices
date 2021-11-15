@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "douzone-stpn94-math": "file:../douzone-stpn94-math"
+  }
 }
