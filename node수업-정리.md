@@ -94,3 +94,11 @@ console.log(App());
 /* 리콰이어가 모듈을 만들어 놨는데 exports를 또 만들면 복잡해진다. 아예 안적았다. 참고해라*/
 중요! 객체 하나를 리턴하는거다.
 ```
+
+7. helloweb-ex01: 맨바닥에서 웹애플리케이션 만들어 보기(whit out express)
+    1. app01 : based on http : core module(내장되어있는거다.)
+    2. app02 : based on http, fs: core module
+    3. app03 : based on connect, serve-static : $npm package
+    4. app04 : based on connect, serve-static : connect-route: $npm package
+
+8. helloweb-ex02: express 프레임워크 기반의 웹애플리케이션 만들기 ($npm i express)
