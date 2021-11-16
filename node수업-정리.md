@@ -102,7 +102,29 @@ console.log(App());
     4. app04 : based on connect, serve-static : connect-route: $npm package
 
 8. helloweb-ex02: express 프레임워크 기반의 웹애플리케이션 만들기 ($npm i express)
+
+>   >1)
+>   >[helloweb-ex02] $ npm init -y
+>   >2)
 >   >[helloweb-ex02] $ npm i express
 >   >[helloweb-ex02] $ npm i ejs
 >   >[helloweb-ex02] $ npm i -D nodaemon
-nodaemon = nodaemon은 노드랑 똑 같은데 패키지 자식들을 지켜보고있다가 변경되면 서버를 restart 한다.
+nodemon = nodemon은 노드랑 똑 같은데 패키지 자식들을 지켜보고있다가 변경되면 서버를 restart 한다.
+
+>   >3)
+```
+package.json 스크립트
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodaemon index.js" 
+  }, 
+```
+>   >[helloweb-ex02] $ npm start     (운용시)
+>   >[helloweb-ex02] $ npm run debug (개발시)
+
+>   >5) 디렉토리 구조
+>   >[helloweb-ex02] $ mkdir public
+>   >[helloweb-ex02] $ mkdir routes
+>   >[helloweb-ex02] $ mkdir controllers
+>   >[helloweb-ex02] $ mkdir models
+>   >[helloweb-ex02] $ mkdir views
