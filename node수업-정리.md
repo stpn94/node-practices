@@ -108,7 +108,7 @@ console.log(App());
 >   >2)
 >   >[helloweb-ex02] $ npm i express
 >   >[helloweb-ex02] $ npm i ejs
->   >[helloweb-ex02] $ npm i -D nodaemon
+>   >[helloweb-ex02] $ npm i -D nodemon
 nodemon = nodemon은 노드랑 똑 같은데 패키지 자식들을 지켜보고있다가 변경되면 서버를 restart 한다.
 
 >   >3)
@@ -116,7 +116,7 @@ nodemon = nodemon은 노드랑 똑 같은데 패키지 자식들을 지켜보고
 package.json 스크립트
   "scripts": {
     "start": "node index.js",
-    "debug": "nodaemon index.js" 
+    "debug": "nodemon index.js" 
   }, 
 ```
 >   >[helloweb-ex02] $ npm start     (운용시)
@@ -128,3 +128,55 @@ package.json 스크립트
 >   >[helloweb-ex02] $ mkdir controllers
 >   >[helloweb-ex02] $ mkdir models
 >   >[helloweb-ex02] $ mkdir views
+
+9. emaillist(models based on mysql) - 기본 sql 기반
+   1) [emaillist] $ npm init -y
+   2) 
+      1) [emaillist] $ npm i express
+      2) [emaillist] $ npm i mysql2
+      3) [emaillist] $ npm i -D nodemon
+   3) --
+```
+package.json 스크립트
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodaemon index.js" 
+  }, 
+```
+   4) 디렉토리 구조
+      1) [emaillist] $ mkdir public
+      2) [emaillist] $ mkdir routes
+      3) [emaillist] $ mkdir controllers
+      4) [emaillist] $ mkdir models
+      5) [emaillist] $ mkdir views
+
+10. guestbook(models based on mysql) - 기본 sql 기반
+   1) [guestbook] $ npm init -y
+   2) 
+      1) [guestbook] $ npm i express
+      2) [guestbook] $ npm i mysql2
+      3) [guestbook] $ npm i -D nodemon
+   3) --
+```
+package.json 스크립트
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodaemon index.js" 
+  }, 
+```
+   4) 디렉토리 구조
+      1) [guestbook] $ mkdir public
+      2) [guestbook] $ mkdir routes
+      3) [guestbook] $ mkdir controllers
+      4) [guestbook] $ mkdir models
+      5) [guestbook] $ mkdir views
+
+---
+11. mysite(models based on Sequelize) - ORM 기반
+    1) orm(sequelize) -> JS Test
+    2) user(session, 인증, 접근제어), jquery(ajax)
+    3) views -> include(ejs)
+    4) dotenv(configuration: ex) DB connection, port, static directory)
+    5) log (logback과 비슷한 slf4j == winston)
+    6) fileupload(multer)
+
