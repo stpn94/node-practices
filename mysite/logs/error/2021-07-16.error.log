@@ -1,0 +1,845 @@
+2021-07-16 09:43:30 error: TypeError: req.accpes is not a function
+    at module.exports (D:\vscode-projects\backend-dev\mysite\routes\authorized.js:7:14)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 09:43:32 error: TypeError: req.accpes is not a function
+    at module.exports (D:\vscode-projects\backend-dev\mysite\routes\authorized.js:7:14)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:13:58 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:14:23 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:16:20 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:16:23 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:16:32 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:16:54 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:34:12 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:34:13 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:34:19 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:35:38 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:37:33 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:41:51 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 10:41:52 error: Error: Broken
+    at D:\vscode-projects\backend-dev\mysite\routes\user-api.js:16:15
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 12:29:54 error: ReferenceError: path is not defined
+    at upload (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:17:32)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:47:12)
+2021-07-16 12:30:48 error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.extname (path.js:752:5)
+    at upload (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:27:22)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+2021-07-16 12:31:46 error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (internal/validators.js:124:11)
+    at Object.extname (path.js:752:5)
+    at upload (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:27:22)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\layer.js:95:5)
+    at D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\router\index.js:275:10)
+2021-07-16 12:41:12 error: SequelizeDatabaseError: Unknown column 'comment' in 'field list'
+    at Query.formatError (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.insert (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:749:21)
+    at async model.save (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\model.js:3967:35)
+    at async Function.create (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\model.js:2207:12)
+    at async upload (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:40:10)
+2021-07-16 12:43:41 error: SequelizeDatabaseError: Unknown column 'comment' in 'field list'
+    at Query.formatError (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.insert (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:749:21)
+    at async model.save (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\model.js:3967:35)
+    at async Function.create (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\model.js:2207:12)
+    at async upload (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:43:10)
+2021-07-16 12:45:48 error: SequelizeDatabaseError: Unknown column 'comment' in 'field list'
+    at Query.formatError (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.insert (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\dialects\abstract\query-interface.js:749:21)
+    at async model.save (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\model.js:3967:35)
+    at async Function.create (D:\vscode-projects\backend-dev\mysite\node_modules\sequelize\lib\model.js:2207:12)
+    at async upload (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:43:10)
+2021-07-16 14:05:23 error: ReferenceError: results is not defined
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:05:27 error: ReferenceError: results is not defined
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:05:48 error: ReferenceError: results is not defined
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:05:50 error: ReferenceError: results is not defined
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:06:20 error: ReferenceError: galleries is not defined
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:25)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:06:45 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:06:46 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:06:46 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:06:46 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:07:59 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:00 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:00 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:00 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:01 error: SyntaxError: missing ) after argument list in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:33 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:33 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:34 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:34 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:35 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:49 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:50 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:08:50 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:13:14 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:16:45 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:16:45 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:16:46 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:16:46 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:16:46 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:23:17 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:24:01 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:24:02 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:24:02 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:24:02 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:24:07 error: ReferenceError: D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs:53
+    51| 				
+    52| 						<li>
+ >> 53| 							<a	href="<%=gallery.url%>"
+    54| 								data-lightbox="gallery"
+    55| 								class="image"
+    56| 								title="<%=gallery.comment%>
+
+gallery is not defined
+    at eval (eval at compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:15:25)
+    at index (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:24:08 error: ReferenceError: D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs:53
+    51| 				
+    52| 						<li>
+ >> 53| 							<a	href="<%=gallery.url%>"
+    54| 								data-lightbox="gallery"
+    55| 								class="image"
+    56| 								title="<%=gallery.comment%>
+
+gallery is not defined
+    at eval (eval at compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:15:25)
+    at index (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:24:09 error: ReferenceError: D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs:53
+    51| 				
+    52| 						<li>
+ >> 53| 							<a	href="<%=gallery.url%>"
+    54| 								data-lightbox="gallery"
+    55| 								class="image"
+    56| 								title="<%=gallery.comment%>
+
+gallery is not defined
+    at eval (eval at compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:15:25)
+    at index (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:36:51 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:37:32 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:37:35 error: SyntaxError: Unexpected token ')' in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:37:37 error: SyntaxError: Unexpected identifier in D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12)
+    at Object.compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:396:16)
+    at handleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:233:18)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:16)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+2021-07-16 14:37:54 error: TypeError: D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs:51
+    49| 				</div>
+    50| 				<ul>
+ >> 51| 					<%galleries.foreach(function(gallery,index){ %>
+    52| 						<li>
+    53| 							<a	href="<%=gallery.url%>"
+    54| 								data-lightbox="gallery"
+
+galleries.foreach is not a function
+    at eval (eval at compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:15:17)
+    at index (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:37:55 error: TypeError: D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs:51
+    49| 				</div>
+    50| 				<ul>
+ >> 51| 					<%galleries.foreach(function(gallery,index){ %>
+    52| 						<li>
+    53| 							<a	href="<%=gallery.url%>"
+    54| 								data-lightbox="gallery"
+
+galleries.foreach is not a function
+    at eval (eval at compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:15:17)
+    at index (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 14:37:55 error: TypeError: D:\vscode-projects\backend-dev\mysite\views\gallery\index.ejs:51
+    49| 				</div>
+    50| 				<ul>
+ >> 51| 					<%galleries.foreach(function(gallery,index){ %>
+    52| 						<li>
+    53| 							<a	href="<%=gallery.url%>"
+    54| 								data-lightbox="gallery"
+
+galleries.foreach is not a function
+    at eval (eval at compile (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:662:12), <anonymous>:15:17)
+    at index (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:692:17)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:272:36)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)
+    at index (D:\vscode-projects\backend-dev\mysite\controllers\gallery.js:14:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2021-07-16 15:28:02 error: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:170:12)
+    at done (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1008:10)
+    at tryHandleCache (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:278:5)
+    at View.exports.renderFile [as engine] (D:\vscode-projects\backend-dev\mysite\node_modules\ejs\lib\ejs.js:489:10)
+    at View.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\view.js:135:8)
+    at tryRender (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:640:10)
+    at Function.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (D:\vscode-projects\backend-dev\mysite\node_modules\express\lib\response.js:1012:7)

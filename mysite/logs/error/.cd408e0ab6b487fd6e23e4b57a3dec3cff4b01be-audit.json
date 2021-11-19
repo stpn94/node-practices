@@ -1,0 +1,29 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\vscode-projects\\backend-dev\\mysite\\logs\\error\\.cd408e0ab6b487fd6e23e4b57a3dec3cff4b01be-audit.json",
+    "files": [
+        {
+            "date": 1626315762400,
+            "name": "D:\\vscode-projects\\backend-dev\\mysite\\logs\\error\\2021-07-15.error.log",
+            "hash": "e056377a4c796a09d23362681907d474"
+        },
+        {
+            "date": 1626396033653,
+            "name": "D:\\vscode-projects\\backend-dev\\mysite\\logs\\error\\2021-07-16.error.log",
+            "hash": "6676c90ed86c712fc689aec5754051e7"
+        },
+        {
+            "date": 1626653047758,
+            "name": "D:\\vscode-projects\\backend-dev\\mysite\\logs\\error\\2021-07-19.error.log",
+            "hash": "58987fc2d79767136c1c2877d47e0eac"
+        },
+        {
+            "date": 1626740899046,
+            "name": "D:\\vscode-projects\\backend-dev\\mysite\\logs\\error\\2021-07-20.error.log",
+            "hash": "fc8c7bc0196d2d26bc5b5ea6c5be8534"
+        }
+    ]
+}

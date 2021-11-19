@@ -1,0 +1,1047 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>리포트</title>
+</head>
+
+<body>
+    <h2>내 스키마의 템플릿</h2>
+    <table border="1">
+        <tr>
+            <td colspan="6">프로젝트 (project)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>프로젝트번호(PK)</td>
+            <td>project_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>이름</td>
+            <td>project_title</td>
+            <td>N/A</td>
+            <td>VARCHAR(500)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>설명</td>
+            <td>project_desc</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>시작일</td>
+            <td>project_start</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>마감일</td>
+            <td>project_end</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>프로젝트상태</td>
+            <td>project_state</td>
+            <td>N/A</td>
+            <td>VARCHAR(50)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>작성일</td>
+            <td>project_regdate</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>작성자(FK)</td>
+            <td>project_writer</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">업무 리스트 (tasklist)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>업무리스트번호(PK)</td>
+            <td>tasklist_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>이름</td>
+            <td>tasklist_name</td>
+            <td>N/A</td>
+            <td>VARCHAR(300)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>정렬번호</td>
+            <td>tasklist_order</td>
+            <td>N/A</td>
+            <td>INT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>프로젝트번호(FK)</td>
+            <td>project_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무리스트상태</td>
+            <td>tasklist_state</td>
+            <td>N/A</td>
+            <td>ENUM('T','F')</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">업무 (task)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>업무번호(PK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무시작일</td>
+            <td>task_start</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무마감일</td>
+            <td>task_end</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무중요도</td>
+            <td>task_point</td>
+            <td>N/A</td>
+            <td>INT</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무라벨</td>
+            <td>task_label</td>
+            <td>N/A</td>
+            <td>VARCHAR(100)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무상태</td>
+            <td>task_state</td>
+            <td>N/A</td>
+            <td>ENUM('do', 'done','del')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무내용</td>
+            <td>task_contents</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무정렬번호</td>
+            <td>task_order</td>
+            <td>N/A</td>
+            <td>INT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>작성일</td>
+            <td>task_regdate</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무리스트번호(FK)</td>
+            <td>tasklist_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>프로젝트번호(FK)</td>
+            <td>project_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>작성자(FK)</td>
+            <td>task_writer</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">회원 (user)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>회원번호(PK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>가입일</td>
+            <td>user_regdate</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>이메일</td>
+            <td>user_email</td>
+            <td>N/A</td>
+            <td>VARCHAR(350)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>이름</td>
+            <td>user_name</td>
+            <td>N/A</td>
+            <td>VARCHAR(250)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td>user_password</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>전화번호</td>
+            <td>user_number</td>
+            <td>N/A</td>
+            <td>VARCHAR(100)</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>생년월일</td>
+            <td>user_birth</td>
+            <td>N/A</td>
+            <td>DATE</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>직함</td>
+            <td>user_title</td>
+            <td>N/A</td>
+            <td>VARCHAR(200)</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>부서</td>
+            <td>user_dept</td>
+            <td>N/A</td>
+            <td>VARCHAR(200)</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>시간설정</td>
+            <td>user_timezone</td>
+            <td>N/A</td>
+            <td>VARCHAR(200)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>프로필사진</td>
+            <td>user_photo</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>배경화면사진</td>
+            <td>user_bg</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원등급</td>
+            <td>user_grade</td>
+            <td>N/A</td>
+            <td>VARCHAR(100)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>인증키</td>
+            <td>user_key</td>
+            <td>N/A</td>
+            <td>VARCHAR(100)</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">파일 (file)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>파일번호(PK)</td>
+            <td>file_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>원본이름</td>
+            <td>origin_name</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>변경이름</td>
+            <td>change_name</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>저장경로</td>
+            <td>file_path</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>등록일</td>
+            <td>file_regdate</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무번호(FK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>파일상태</td>
+            <td>file_state</td>
+            <td>N/A</td>
+            <td>ENUM('T','F')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">코멘트 (comment)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>코멘트번호(PK)</td>
+            <td>comment_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>등록일</td>
+            <td>comment_regdate</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td>comment_contents</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>좋아요</td>
+            <td>comment_like</td>
+            <td>N/A</td>
+            <td>INT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원번호(FK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무번호(FK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>파일번호(FK)</td>
+            <td>file_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>코멘트상태</td>
+            <td>comment_state</td>
+            <td>N/A</td>
+            <td>ENUM('T','F')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">개인일정 (schedule)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>일정번호(PK)</td>
+            <td>schedule_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>개인일정시작일</td>
+            <td>schedule_start</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>개인일정마감일</td>
+            <td>schedule_end</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>개인일정내용</td>
+            <td>schedule_contents</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원번호(FK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">회원-프로잭트-권한 (userproject)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>프로젝트번호(PFK)</td>
+            <td>project_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원번호(PFK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>권한번호(FK)</td>
+            <td>role_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">체크리스트 (checklist)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>체크리스트번호(PK)</td>
+            <td>checklist_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td>checklist_contents</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>체크리스트상태</td>
+            <td>checklist_state</td>
+            <td>N/A</td>
+            <td>ENUM('do', 'done')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무번호(FK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">로그 (history)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>로그번호(PK)</td>
+            <td>log_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>일자</td>
+            <td>log_date</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td>log_contents</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>프로젝트번호(FK)</td>
+            <td>project_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">태그리스트 (taglist)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>태그번호(PK)</td>
+            <td>tag_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>태그이름</td>
+            <td>tag_name</td>
+            <td>N/A</td>
+            <td>VARCHAR(500)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>태그색상</td>
+            <td>tag_color</td>
+            <td>N/A</td>
+            <td>VARCHAR(100)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">알림메시지 (noticemessage)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>알림번호(PK)</td>
+            <td>notice_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>메세지</td>
+            <td>notice_message</td>
+            <td>N/A</td>
+            <td>TEXT</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>타입</td>
+            <td>notice_type</td>
+            <td>N/A</td>
+            <td>VARCHAR(200)</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>작성날짜</td>
+            <td>notice_date</td>
+            <td>N/A</td>
+            <td>DATETIME</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원번호(FK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무번호(FK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>프로젝트번호(FK)</td>
+            <td>project_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>N</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">권한 (role)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>권한번호(PK)</td>
+            <td>role_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>권한이름</td>
+            <td>role_name</td>
+            <td>N/A</td>
+            <td>VARCHAR(200)</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">태그-업무 (tagtask)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>태그번호(PFK)</td>
+            <td>tag_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무번호(PFK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">업무 맴버 (taskuser)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>회원번호(FK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>업무번호(FK)</td>
+            <td>task_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">알림설정 (noticeset)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>회원번호(PFK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>배정알림</td>
+            <td>noticeset_assign</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>좋아요알림</td>
+            <td>noticeset_like</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>코맨트알림</td>
+            <td>noticeset_comment</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>맨션알림</td>
+            <td>noticeset_mention</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>슬랙알림</td>
+            <td>noticeset_slack</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>깃알림</td>
+            <td>noticeset_git</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>구글캘린더알림</td>
+            <td>noticeset_calendar</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>구글이메일알림</td>
+            <td>noticeset_email</td>
+            <td>N/A</td>
+            <td>ENUM('Y', 'N')</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">알림메시지함 (noticemsgbox)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>알림번호(PFK)</td>
+            <td>notice_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원번호(PFK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>읽음여부</td>
+            <td>message_ck</td>
+            <td>N/A</td>
+            <td>ENUM("Y", "N")</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <td colspan="6">좋아요관리 (userlike)</td>
+        </tr>
+        <tr>
+            <td>논리명</td>
+            <td>물리명</td>
+            <td>도메인</td>
+            <td>데이터 타입</td>
+            <td>Not Null</td>
+            <td>설명</td>
+        </tr>
+        <tr>
+            <td>코멘트번호(PFK)</td>
+            <td>comment_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>회원번호(PFK)</td>
+            <td>user_no</td>
+            <td>N/A</td>
+            <td>INT UNSIGNED</td>
+            <td>Y</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+
+</html>
